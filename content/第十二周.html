@@ -155,7 +155,26 @@ img.add_border {
           
         </header>
     <div id="tipue_search_content">第十周 << <a href='第十周.html'>Previous</a> <a href='第十三周.html'>Next</a> >> 第十三周<br /><h1>第十二周</h1>
-<br />第十周 << <a href='第十周.html'>Previous</a> <a href='第十三周.html'>Next</a> >> 第十三周</div>
+<pre></pre>
+<script>
+function getDart(dirname){
+    source = "https://dartpad.github.io/embed-dart.html?gh_owner=s40523147&gh_repo=cp2019&gh_path=dart_ex/" + dirname + "&theme=dark";
+    document.getElementById("iframe").src = source ;
+}
+function largest(){
+document.getElementById("iframe").width = document.body.clientWidth ;
+document.getElementById("iframe").height = document.body.clientWidth*0.5 ;
+}
+function original(){
+document.getElementById("iframe").width = 1200 ;
+document.getElementById("iframe").height = 800 ;
+}
+</script>
+<!-- 取 Dart 程式的按鈕 -->
+<p><button onclick="getDart('華攝氏徵測轉換')">華攝氏徵測轉換</button></p>
+<!-- 內建放入的 Dart 原始碼 -->
+<p><button onclick="largest()">放大</button> <button onclick="original()">回復</button></p>
+<p><iframe height="800" id="iframe" src="https://dartpad.dev/embed-inline.html?id=3d3f7542ff512e64be6e7b545acd66ed/華攝氏徵測轉換&amp;theme=dark" width="1200"></iframe></p><br />第十周 << <a href='第十周.html'>Previous</a> <a href='第十三周.html'>Next</a> >> 第十三周</div>
         
     <!-- footer -->
       <div class="container">
