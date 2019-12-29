@@ -22,14 +22,6 @@ function getDart(dirname){
     source = "https://dartpad.github.io/embed-dart.html?gh_owner=s40523147&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
     document.getElementById("iframe").src = source ;
 }
-function largest(){
-document.getElementById("iframe").width = document.body.clientWidth ;
-document.getElementById("iframe").height = document.body.clientWidth*0.5 ;
-}
-function original(){
-document.getElementById("iframe").width = 1200 ;
-document.getElementById("iframe").height = 800 ;
-}
 </script>
 <!-- 取 Dart 程式的按鈕 -->
 <p><button onclick="getDart('華攝氏徵測轉換')">華攝氏徵測轉換</button></p>
