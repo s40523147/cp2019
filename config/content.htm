@@ -9,14 +9,14 @@
 <p><a href="https://gist.github.com/s40523147/ae424fd04b56993f9f794ee20e7923df"><span>gist：</span></a><a href="https://gist.github.com/s40523147/82fe0ed8701f8a97e06d735e693f1374">https://gist.github.com/s40523147/82fe0ed8701f8a97e06d735e693f1374</a></p>
 <p><iframe height="600" src="https://dartpad.dev/embed-inline.html?id=82fe0ed8701f8a97e06d735e693f1374" width="800"></iframe></p>
 <h1>各周作業</h1>
-<h2>第七周</h2>
+<h2>W7</h2>
 <p>gist：<a href="https://gist.github.com/s40523147/0c582bedde052709ae873163068d8157">https://gist.github.com/s40523147/0c582bedde052709ae873163068d8157</a></p>
 <p><iframe height="600" src="https://dartpad.dev/embed-inline.html?id=0c582bedde052709ae873163068d8157" width="800"></iframe></p>
-<h2>第十周</h2>
+<h2>W10</h2>
 <p><span>攝氏轉華氏：</span></p>
 <p><span>gist：<a href="https://gist.github.com/s40523147/fcbbc80a4d80b6671881e22fd01d0581">https://gist.github.com/s40523147/fcbbc80a4d80b6671881e22fd01d0581</a></span></p>
 <p><iframe height="600" src="https://dartpad.dev/embed-inline.html?id=fcbbc80a4d80b6671881e22fd01d0581" width="800"></iframe></p>
-<h2>第十二周</h2>
+<h2>W12</h2>
 <script>
 function getDart(dirname){
     source = "https://dartpad.github.io/embed-dart.html?gh_owner=s40523147&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
@@ -27,6 +27,36 @@ function getDart(dirname){
 <p><button onclick="getDart('華攝氏徵測轉換')">華攝氏徵測轉換</button></p>
 <!-- 內建放入的 Dart 原始碼 -->
 <p><button onclick="largest()">放大</button> <button onclick="original()">回復</button></p>
-<p><iframe height="800" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=s40523147&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/華攝氏徵測轉換&amp;theme=dark" width="1200"></iframe></p><h2>第十三周</h2>
-<h2>第十四周</h2>
-<h2>第十五周</h2>
+<p><iframe height="800" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=s40523147&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/華攝氏徵測轉換&amp;theme=dark" width="1200"></iframe></p>
+<h2>W13</h2>
+<script>
+function getDart(dirname){
+    source = "https://dartpad.github.io/embed-dart.html?gh_owner=s40523147&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
+    document.getElementById("iframe").src = source ;
+}
+
+function getHtmlDart(dirname){
+    source = "https://dartpad.github.io/embed-html.html?gh_owner=s40523147&gh_repo=cp2019&gh_path=downloads/dart_ex/"  + dirname + "&theme=dark";
+document.getElementById("iframe").src = source ;
+}
+
+
+function largest(){
+document.getElementById("iframe").width = document.body.clientWidth ;
+document.getElementById("iframe").height = document.body.clientWidth*0.5 ;
+}
+
+function original(){
+document.getElementById("iframe").width = 900 ;
+document.getElementById("iframe").height = 600 ;
+}
+</script>
+<!-- 取 Dart 程式的按鈕 -->
+<h4>純 Dart 程式</h4>
+<p><button onclick="getDart('華攝氏徵測轉換')">華攝氏徵測轉換</button></p>
+<h4>Html 程式</h4>
+<p><button onclick="getHtmlDart('temp2')">溫度轉換</button> <!-- 內建放入的 Dart 原始碼 --></p>
+<p><button onclick="largest()">放大</button> <button onclick="original()">回復</button></p>
+<p></p>
+<p><iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=s40523147&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/華攝氏徵測轉換&amp;theme=dark" width="900"></iframe></p><h2>W14</h2>
+<h2>W15</h2>
