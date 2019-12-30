@@ -154,7 +154,35 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">W14 << <a href='W14.html'>Previous</a> <br /><h1>W15</h1><br />W14 << <a href='W14.html'>Previous</a> </div>
+    <div id="tipue_search_content">W14 << <a href='W14.html'>Previous</a> <br /><h1>W15</h1>
+<p><span>任務一 :  建立亂數分組的 Html 按鈕</span></p>
+<script>
+function getDart(dirname){
+    source = "https://dartpad.github.io/embed-dart.html?gh_owner=s40523147&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
+    document.getElementById("iframe").src = source ;
+}
+
+function getHtmlDart(dirname){
+    source = "https://dartpad.github.io/embed-html.html?gh_owner=s40523147&gh_repo=cp2019&gh_path=downloads/dart_ex/"  + dirname + "&theme=dark";
+document.getElementById("iframe").src = source ;
+}
+
+
+function largest(){
+document.getElementById("iframe").width = document.body.clientWidth ;
+document.getElementById("iframe").height = document.body.clientWidth*0.5 ;
+}
+
+function original(){
+document.getElementById("iframe").width = 900 ;
+document.getElementById("iframe").height = 600 ;
+}
+</script>
+<h4>Html 程式</h4>
+<p><button onclick="getHtmlDart('random_grouping')">亂數分組</button> <!-- 內建放入的 Dart 原始碼 --></p>
+<p><button onclick="largest()">放大</button> <button onclick="original()">回復</button></p>
+<p></p>
+<p><iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=s40523147&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/亂數分組html&amp;theme=dark" width="900"></iframe></p><br />W14 << <a href='W14.html'>Previous</a> </div>
         
     <!-- footer -->
       <div class="container">
