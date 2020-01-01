@@ -6,5 +6,5 @@ mode: html
 #若為 html 模式, 則加入 index.htm 與 style.css
 files:
   - name: pentagram.dart
-  - name: pentagram.html
-  - name: pentagram.css
+  - name: index.html
+  - name: style.css
