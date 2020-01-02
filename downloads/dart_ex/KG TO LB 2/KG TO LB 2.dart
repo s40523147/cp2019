@@ -1,6 +1,3 @@
-// 因為要使用超文件表單, 因此導入 html 程式庫
-import "dart:html";
-
 // kg = lb *1/2.2046226218
 // 定義 公斤 轉 英鎊 的函式
 KGtoLB(num k){
