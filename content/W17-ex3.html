@@ -155,7 +155,32 @@ img.add_border {
           
         </header>
     <div id="tipue_search_content">W17-ex2 << <a href='W17-ex2.html'>Previous</a> <br /><h1>W17-ex3</h1>
-<p></p><br />W17-ex2 << <a href='W17-ex2.html'>Previous</a> </div>
+<script>
+function getDart(dirname){
+    source = "https://dartpad.github.io/embed-dart.html?gh_owner=s40523147&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
+    document.getElementById("iframe").src = source ;
+}
+
+function getHtmlDart(dirname){
+    source = "https://dartpad.github.io/embed-html.html?gh_owner=s40523147&gh_repo=cp2019&gh_path=downloads/dart_ex/"  + dirname + "&theme=dark";
+document.getElementById("iframe").src = source ;
+}
+
+
+function largest(){
+document.getElementById("iframe").width = document.body.clientWidth ;
+document.getElementById("iframe").height = document.body.clientWidth*0.5 ;
+}
+
+function original(){
+document.getElementById("iframe").width = 900 ;
+document.getElementById("iframe").height = 600 ;
+}
+</script>
+<h4>Html 程式</h4>
+<p><button onclick="getHtmlDart('French flag')">French flag</button> <!-- 內建放入的 Dart 原始碼 --></p>
+<p><button onclick="largest()">放大</button> <button onclick="original()">回復</button></p>
+<p><iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=s40523147&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/French flag&amp;theme=dark" width="900"></iframe></p><br />W17-ex2 << <a href='W17-ex2.html'>Previous</a> </div>
         
     <!-- footer -->
       <div class="container">
