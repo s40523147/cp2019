@@ -51,6 +51,6 @@ void drawFrench(ctx){
   ctx.beginPath();
 }
 
-void clear() {
+void clearCanvas() {
   ctx.clearRect(0, 0, flag_w, flag_h);
 }
