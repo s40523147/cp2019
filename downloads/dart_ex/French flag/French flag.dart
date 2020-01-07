@@ -11,6 +11,14 @@ num circle_y = flag_h / 4;
 void main() {
   canvas = querySelector('#canvas');
   ctx = canvas.getContext('2d');
+  
+  
+  querySelector("#french").onClick.listen((e) => drawFrench(ctx));
+  querySelector("#button").onClick.listen((e) => clearCanvas());
+  }
+
+void drawFrench(ctx){
+
   ctx.beginPath();
   ctx.moveTo(0, 0);
   ctx.lineTo(0, 200);
