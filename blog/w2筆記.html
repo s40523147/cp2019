@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
 
-  <title>cp2019計算機程式</title>
+  <title>2019 Fall CP 課程</title>
 
 
   <meta name="HandheldFriendly" content="True" />
@@ -18,6 +18,7 @@
 
   <!-- Feed -->
         <link href="https://s40523147.github.io/co2019/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="cp2019計算機程式 Full Atom Feed" />
+          <link href="https://s40523147.github.io/co2019/blog/feeds/{slug}.atom.xml" type="application/atom+xml" rel="alternate" title="cp2019計算機程式 Categories Atom Feed" />
 
   <link href="https://s40523147.github.io/co2019/blog/theme/css/style.css" type="text/css" rel="stylesheet" />
 
@@ -39,27 +40,49 @@
   <![endif]-->
 
 
+    <link href="https://s40523147.github.io/co2019/blog/w2筆記.html" rel="canonical" />
+
+        <meta name="description" content="課程筆記 1.隨身碟內資料 與 遠端倉儲 不一致 ， 可利用指令 git pull 合併兩者，再 add -> commit -> push 即可 2.Cmsimde 資料夾內如果沒東西的話 ， 可用指令 git submodule init -> git...">
+
+        <meta name="author" content="40523147-藍元廷">
+
+        <meta name="tags" content="2019FallCP">
+
+
 
 
 <!-- Open Graph -->
 <meta property="og:site_name" content="cp2019計算機程式"/>
-<meta property="og:type" content="blog"/>
-<meta property="og:title" content="cp2019計算機程式"/>
-<meta property="og:description" content="View the blog."/>
+<meta property="og:title" content="2019 Fall CP 課程"/>
+<meta property="og:description" content="課程筆記 1.隨身碟內資料 與 遠端倉儲 不一致 ， 可利用指令 git pull 合併兩者，再 add -> commit -> push 即可 2.Cmsimde 資料夾內如果沒東西的話 ， 可用指令 git submodule init -> git..."/>
 <meta property="og:locale" content="en_US"/>
-<meta property="og:url" content="https://s40523147.github.io/co2019/blog/"/>
-<meta property="og:image" content="https://s40523147.github.io/co2019/blog/theme/images/home-bg.jpg">
+<meta property="og:url" content="https://s40523147.github.io/co2019/blog/w2筆記.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2019-09-19 09:00:00+08:00"/>
+<meta property="article:modified_time" content=""/>
+<meta property="article:author" content="https://s40523147.github.io/co2019/blog/author/40523147-lan-yuan-ting.html">
+<meta property="article:section" content="Misc"/>
+<meta property="article:tag" content="2019FallCP"/>
+<meta property="og:image" content="https://s40523147.github.io/co2019/blog/theme/images/post-bg.jpg">
 
 <!-- Twitter Card -->
 
 <script type="application/ld+json">
 {
-  "@context" : "http://schema.org",
-  "@type" : "Website",
-  "name": " cp2019計算機程式 ",
-  "url" : "https://s40523147.github.io/co2019/blog/",
-  "image": "https://s40523147.github.io/co2019/blog/theme/images/home-bg.jpg",
-  "description": "View the blog."
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "name": "2019 Fall CP 課程",
+  "headline": "2019 Fall CP 課程",
+  "datePublished": "2019-09-19 09:00:00+08:00",
+  "dateModified": "",
+  "author": {
+    "@type": "Person",
+    "name": "40523147-藍元廷",
+    "url": "https://s40523147.github.io/co2019/blog/author/40523147-lan-yuan-ting.html"
+  },
+  "image": "https://s40523147.github.io/co2019/blog/theme/images/post-bg.jpg",
+  "url": "https://s40523147.github.io/co2019/blog/w2筆記.html",
+  "description": "課程筆記 1.隨身碟內資料 與 遠端倉儲 不一致 ， 可利用指令 git pull 合併兩者，再 add -> commit -> push 即可 2.Cmsimde 資料夾內如果沒東西的話 ， 可用指令 git submodule init -> git..."
 }
 </script>
 <script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
@@ -157,21 +180,33 @@ init_mathjax();
     </ul>
   </div>
 </nav>
+    <!-- Progressbar -->
+    <div class="progress-container">
+        <span class="progress-bar"></span>
+    </div>
+
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header id="blog-header" class="has-cover">
+    <header id="post-header" class="has-cover">
       <div class="inner">
         <nav id="navigation">
+            <span id="home-button" class="nav-button">
+                <a class="home-button" href="https://s40523147.github.io/co2019/blog/index.html" title="Home"><i class="ic ic-arrow-left"></i> Home</a>
+            </span>
           <span id="menu-button" class="nav-button">
             <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
           </span>
         </nav>
-        <h1 class="blog-name"><a href="https://s40523147.github.io/co2019/blog/">cp2019計算機程式</a></h1>
-            <div class="blog-cover cover" style="background-image: url('https://s40523147.github.io/co2019/blog/theme/images/home-bg.jpg')">
-        
+        <h1 class="post-title">2019 Fall CP 課程</h1>
+        <!-- TODO : Proper class for headline -->
+        <span class="post-meta">
+                <a href="https://s40523147.github.io/co2019/blog/author/40523147-lan-yuan-ting.html">40523147-藍元廷</a>
+            | <time datetime="週四 19 九月 2019">週四 19 九月 2019</time>
+        </span>
+        <!-- TODO : Modified check -->
+            <div class="post-cover cover" style="background-image: url('https://s40523147.github.io/co2019/blog/theme/images/post-bg.jpg')">
       </div>
     </header>
-
 
   <section id="wrapper">
     <a class="hidden-close"></a>
@@ -183,69 +218,66 @@ init_mathjax();
 </section>
 
 
-<div id="index" class="container">
-  <main class="content" role="main">
-    <div class="extra-pagination">
-<nav class="pagination" role="pagination">
-  <div class="inner">
-    <span class="pagination-info">Page 1 / 1</span>
-    <div class="clear"></div>
-  </div>
-</nav>
-    </div>
-
+    <!-- Post content -->
+    <main class="content" role="main">
         <article class="post">
         <div class="inner">
-            <header class="post-header">         
-                <h2 class="post-title"><a href="https://s40523147.github.io/co2019/blog/w2筆記.html" rel="bookmark" title="Permalink to 2019 Fall CP 課程">2019 Fall CP 課程</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="https://s40523147.github.io/co2019/blog/author/40523147-lan-yuan-ting.html">40523147-藍元廷</a>
-                     | <time datetime="週四 19 九月 2019">週四 19 九月 2019</time>
-                </span>
+            <section class="post-content">
+                <p>課程筆記</p>
+<p>1.隨身碟內資料 與 遠端倉儲 不一致 ， 可利用指令 git pull 合併兩者，再 add -&gt; commit -&gt; push 即可
+2.Cmsimde 資料夾內如果沒東西的話 ， 可用指令 git submodule init -&gt; git submodule update
+3.字幕影片轉換的指令 
+4.LEO文章嵌入連結  <a href="網址">顯示的文字</a></p>
+            </section>
+
+            <section class="post-info">
+                <div class="post-share">
+                    <a class="twitter" href="https://twitter.com/share?text=2019 Fall CP 課程&amp;url=https://s40523147.github.io/co2019/blog/w2筆記.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <i class="ic ic-twitter"></i><span class="hidden">Twitter</span>
+                    </a>
+                    <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://s40523147.github.io/co2019/blog/w2筆記.html" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <i class="ic ic-facebook"></i><span class="hidden">Facebook</span>
+                    </a>
+                    <a class="googleplus" href="https://plus.google.com/share?url=https://s40523147.github.io/co2019/blog/w2筆記.html" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <i class="ic ic-googleplus"></i><span class="hidden">Google+</span>
+                    </a>
+                    <div class="clear"></div>
+                </div>
+
+                <aside class="post-tags">
+<a href="https://s40523147.github.io/co2019/blog/tag/2019fallcp.html">2019FallCP</a>                </aside>
+
                 <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        課程筆記 1.隨身碟內資料 與 遠端倉儲 不一致 ， 可利用指令 git pull 合併兩者，再 add -> commit -> push 即可 2.Cmsimde 資料夾內如果沒東西的話 ， 可用指令 git submodule init -> git submodule update 3.字幕影片轉換的指令 4.LEO文章嵌入連結 顯示的文字
-                    </p>
+
+
                 </section>
-<p>
-  <a data-disqus-identifier="/w2筆記.html" href="https://s40523147.github.io/co2019/blog/w2筆記.html#disqus_thread">comments</a>
-</p>
+
+                <script type="text/javascript">
+                    var disqus = 'https-s40523147-github-io-cp2019';
+                    var disqus_shortname = 'https-s40523147-github-io-cp2019';
+                    var disqus_identifier = '/w2筆記.html';
+                    var disqus_url = 'https://s40523147.github.io/co2019/blog/w2筆記.html';
+                </script>
+                <noscript>Please enable JavaScript to view the comments.</noscript>
+                <section class="post-comments">
+                        <a id="show-disqus" class="post-comments-activate" data-disqus-identifier="/w2筆記.html" >Show Comments</a>
+                    <div id="disqus_thread"></div>
+                </section>
+
+                <aside class="post-nav">
+                    <a class="post-nav-prev" href="https://s40523147.github.io/co2019/blog/2018-Fall-32-bit-Windows.html">
+                        <section class="post-nav-teaser">
+                            <i class="ic ic-arrow-right"></i>
+                                <h2 class="post-nav-title">2018 Fall CP 課程</h2>
+                            <p class="post-nav-excerpt">2018 Fall 一開始, 在一台已經 10 年的 32 位元的 Windows 7 操作系統中工作. 可攜的 Python 3.7.0 仍然可以配置, Leo...</p>
+                        </section>
+                    </a>
+                    <div class="clear"></div>
+                </aside>
+
             </div>
         </article>
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">         
-                <h2 class="post-title"><a href="https://s40523147.github.io/co2019/blog/2018-Fall-32-bit-Windows.html" rel="bookmark" title="Permalink to 2018 Fall CP 課程">2018 Fall CP 課程</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="https://s40523147.github.io/co2019/blog/author/yen.html">Yen</a>
-                     | <time datetime="週一 10 九月 2018">週一 10 九月 2018</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        <p>2018 Fall 一開始, 在一台已經 10 年的 32 位元的 Windows 7 操作系統中工作. 可攜的 Python 3.7.0 仍然可以配置, Leo Editor、PyQt5、flask、Markdown、pelican 與 bs4 的安裝, 也都沒有問題. 只有 Eric6 因為缺少必要模組與 Python 3.7.0 對應的 pyqt5-tools, 因此沒有安裝.</p>
-
-                    </p>
-                </section>
-<p>
-  <a data-disqus-identifier="/2018-Fall-32-bit-Windows.html" href="https://s40523147.github.io/co2019/blog/2018-Fall-32-bit-Windows.html#disqus_thread">comments</a>
-</p>
-            </div>
-        </article>
-
-<nav class="pagination" role="pagination">
-  <div class="inner">
-    <span class="pagination-info">Page 1 / 1</span>
-    <div class="clear"></div>
-  </div>
-</nav>
-  </main>
-</div>
+    </main>
       <!-- TODO : Body class -->
     <div id="body-class" style="display: none;" class=""></div>
 
