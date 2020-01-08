@@ -24,9 +24,11 @@
 <v t="leo.20180902120523.11"><vh>2019 計算機程式課程願景</vh>
 <v t="leo.20180902120523.12"><vh>2019 計算機程式課程願景</vh></v>
 </v>
-<v t="leo.20180902120523.13"><vh>各式內容引用範例</vh>
-<v t="leo.20180902120523.14"><vh>導入數學符號與方程式</vh>
-<v t="leo.20180902120523.15"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20180902120523.13"><vh>學期回顧</vh>
+<v t="leo.20180902120523.14"><vh>W2</vh>
+<v t="leo.20180902120523.15"><vh>W2</vh></v>
+<v t="leo.20200108205002.1"><vh>W3</vh></v>
+<v t="leo.20200108205012.1"><vh>W7</vh></v>
 </v>
 <v t="leo.20180902120523.16"><vh>導入縮排程式碼</vh>
 <v t="leo.20180902120523.17"><vh>引用程式碼</vh></v>
@@ -69,8 +71,7 @@ Created by 40523147
 <t tx="leo.20180902120523.12">## 2019 計算機程式課程願景
 
 * Dart 與 Flutter 時代來臨
-* 可攜式裝置是一個優勢，即插即用，缺點是不一定每台電  
-   腦皆是我們所熟識的
+* 可攜式裝置是一個優勢，即插即用，缺點是不一定每台電腦皆是我們所熟識的
 * 程式是一個跟電腦溝通的語言
 * 電腦與網路應該是助手而非負擔
 
@@ -92,13 +93,11 @@ Created by 40523147
 
 						
 </t>
-<t tx="leo.20180902120523.15"># 數學符號與方程式
+<t tx="leo.20180902120523.15"># W2
 
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
-</t>
+* 隨身碟內資料 與 遠端倉儲 不一致 ， 可利用指令 git pull 合併兩者，再 add -&gt; commit -&gt; push 即可
+* Cmsimde 資料夾內如果沒東西的話 ， 可用指令 git submodule init -&gt; git submodule update
+* LEO文章嵌入連結  &lt;a href="網址"&gt;顯示的文字&lt;/a&gt;</t>
 <t tx="leo.20180902120523.16">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -323,5 +322,9 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
+<t tx="leo.20200108205002.1"># W3 Dartpad引入Gist中的Dart程式
+
+gist:https://dartpad.dartlang.org/?id=ae424fd04b56993f9f794ee20e7923df</t>
+<t tx="leo.20200108205012.1"></t>
 </tnodes>
 </leo_file>
