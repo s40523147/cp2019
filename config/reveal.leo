@@ -267,8 +267,13 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200108212136.4">
-</t>
+<t tx="leo.20200108212136.4">## 學期初
+
+
+* 建立好自己的倉儲及環境
+* 認識github
+* 學習基本的 Python 指令
+* 使用cmsimde網站，編輯網站</t>
 <t tx="leo.20200108212136.5">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -284,18 +289,11 @@ vertical: body pane on the botton</t>
 
 &lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 </t>
-<t tx="leo.20200108212825.1">
-
-
-# 目錄
-
-
-
-
+<t tx="leo.20200108212825.1">## 目錄
 
 * 學期初
 * 學期中
 * 學期末
-*學期心得</t>
+* 學期心得</t>
 </tnodes>
 </leo_file>
