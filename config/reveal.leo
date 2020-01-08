@@ -27,18 +27,12 @@
 <v t="leo.20180902120523.13"><vh>目錄</vh>
 <v t="leo.20200108212136.1"><vh>目錄</vh>
 <v t="leo.20200108212825.1"><vh>目錄</vh></v>
-<v t="leo.20200108212136.3"><vh>導入縮排程式碼</vh>
-<v t="leo.20200108212136.4"><vh>引用程式碼</vh></v>
+<v t="leo.20200108212136.3"><vh>學期初</vh>
+<v t="leo.20200108212136.4"><vh>學期初</vh></v>
 </v>
 <v t="leo.20200108212136.5"><vh>導入影片</vh>
 <v t="leo.20200108212136.6"><vh>iframe 導入影片</vh></v>
 </v>
-</v>
-<v t="leo.20180902120523.16"><vh>導入縮排程式碼</vh>
-<v t="leo.20180902120523.17"><vh>引用程式碼</vh></v>
-</v>
-<v t="leo.20180902120523.18"><vh>導入影片</vh>
-<v t="leo.20180902120523.19"><vh>iframe 導入影片</vh></v>
 </v>
 </v>
 </v>
@@ -85,60 +79,6 @@ Created by 40523147
 @others
 &lt;/section&gt;
 
-</t>
-<t tx="leo.20180902120523.16">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20180902120523.17">## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-@language python
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
-
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
-</t>
-<t tx="leo.20180902120523.18">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20180902120523.19">## 使用 iframe 導入影片
-
-### 導入影片 template
-
-&lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx="leo.20180902120523.2"></t>
 <t tx="leo.20180902120523.3">@language xml
@@ -327,33 +267,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200108212136.4">## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-@language python
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
-
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
+<t tx="leo.20200108212136.4">
 </t>
 <t tx="leo.20200108212136.5">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -370,7 +284,10 @@ make.start()
 
 &lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 </t>
-<t tx="leo.20200108212825.1"># 目錄
+<t tx="leo.20200108212825.1">
+
+
+# 目錄
 
 
 
@@ -378,6 +295,7 @@ make.start()
 
 * 學期初
 * 學期中
-* 學期末</t>
+* 學期末
+*學期心得</t>
 </tnodes>
 </leo_file>
