@@ -25,9 +25,15 @@
 <v t="leo.20180902120523.12"><vh>2019 計算機程式課程願景</vh></v>
 </v>
 <v t="leo.20180902120523.13"><vh>學期回顧</vh>
-<v t="leo.20180902120523.14"><vh>W2</vh></v>
-<v t="leo.20200108205719.1"><vh>W3</vh></v>
-<v t="leo.20200108205733.1"><vh>newHeadline</vh></v>
+<v t="leo.20200108212136.1"><vh>W2</vh>
+<v t="leo.20200108212136.2"><vh>W2</vh></v>
+<v t="leo.20200108212136.3"><vh>導入縮排程式碼</vh>
+<v t="leo.20200108212136.4"><vh>引用程式碼</vh></v>
+</v>
+<v t="leo.20200108212136.5"><vh>導入影片</vh>
+<v t="leo.20200108212136.6"><vh>iframe 導入影片</vh></v>
+</v>
+</v>
 <v t="leo.20180902120523.16"><vh>導入縮排程式碼</vh>
 <v t="leo.20180902120523.17"><vh>引用程式碼</vh></v>
 </v>
@@ -79,23 +85,6 @@ Created by 40523147
 @others
 &lt;/section&gt;
 
-</t>
-<t tx="leo.20180902120523.14">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-# W2
-
-* 隨身碟內資料 與 遠端倉儲 不一致 ， 可利用指令 git pull 合併兩者，再 add -&gt; commit -&gt; push 即可
-* Cmsimde 資料夾內如果沒東西的話 ， 可用指令 git submodule init -&gt; git submodule update
-* LEO文章嵌入連結  &lt;a href="網址"&gt;顯示的文字&lt;/a&gt;
-
-
-
-						
 </t>
 <t tx="leo.20180902120523.16">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -321,8 +310,74 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
-<t tx="leo.20200108205719.1"># W3 Dartpad引入Gist中的Dart程式
+<t tx="leo.20200108212136.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20200108212136.2"># W2-建立環境及倉儲
+
+* 隨身碟內資料 與 遠端倉儲 不一致 ， 可利用指令 git pull 合併兩者，再 add -&gt; commit -&gt; push 即可 
+* Cmsimde 資料夾內如果沒東西的話 ， 可用指令 git submodule init -&gt; git submodule update 
+* LEO文章嵌入連結 顯示的文字
+* 記得去home下面的gitconfig設定poxy的位置
+
+
 </t>
-<t tx="leo.20200108205733.1"></t>
+<t tx="leo.20200108212136.3">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20200108212136.4">## 利用 Markdown 寫投影片
+以下利用 Markdown 格式展示 Python 程式碼:
+```
+@language python
+# use threading and subprocess to threading the make process
+import os
+import subprocess
+import threading
+
+def domake():
+    
+    path = "../exposed/api/exposed"
+    ubuntu = "../Ubuntu"
+    
+    # create obj path
+    
+    if not os.path.exists(path+"/../obj"):
+        os.makedirs(path+"/../obj")
+    
+    subprocess.call(["make", "clean"], cwd=path)
+    subprocess.call("make", cwd=path)
+    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
+    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
+    
+make = threading.Thread(target=domake)
+make.start()
+```
+</t>
+<t tx="leo.20200108212136.5">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200108212136.6">## 使用 iframe 導入影片
+
+### 導入影片 template
+
+&lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
 </tnodes>
 </leo_file>

@@ -74,19 +74,63 @@ Created by 40523147
 <section data-markdown>
     <script type="text/template">
 <!-- 請注意, @others 不可以內縮 -->
+# W2-建立環境及倉儲
+
+* 隨身碟內資料 與 遠端倉儲 不一致 ， 可利用指令 git pull 合併兩者，再 add -> commit -> push 即可 
+* Cmsimde 資料夾內如果沒東西的話 ， 可用指令 git submodule init -> git submodule update 
+* LEO文章嵌入連結 顯示的文字
+* 記得去home下面的gitconfig設定poxy的位置
+
+
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+## 利用 Markdown 寫投影片
+以下利用 Markdown 格式展示 Python 程式碼:
+```
+# use threading and subprocess to threading the make process
+import os
+import subprocess
+import threading
+
+def domake():
+    
+    path = "../exposed/api/exposed"
+    ubuntu = "../Ubuntu"
+    
+    # create obj path
+    
+    if not os.path.exists(path+"/../obj"):
+        os.makedirs(path+"/../obj")
+    
+    subprocess.call(["make", "clean"], cwd=path)
+    subprocess.call("make", cwd=path)
+    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
+    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
+    
+make = threading.Thread(target=domake)
+make.start()
+```
     </script>
 </section>
-
-# W2
-
-* 隨身碟內資料 與 遠端倉儲 不一致 ， 可利用指令 git pull 合併兩者，再 add -> commit -> push 即可
-* Cmsimde 資料夾內如果沒東西的話 ， 可用指令 git submodule init -> git submodule update
-* LEO文章嵌入連結  <a href="網址">顯示的文字</a>
 
 
 
 						
-# W3 Dartpad引入Gist中的Dart程式
+<section data-markdown>
+    <script type="text/template">
+## 使用 iframe 導入影片
+
+### 導入影片 template
+
+<iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </script>
+</section>
+
+
+						
+    </script>
+</section>
 <section data-markdown>
     <script type="text/template">
 <!-- 請注意, @others 不可以內縮 -->
