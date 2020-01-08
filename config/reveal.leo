@@ -56,7 +56,7 @@ Created by 40523147
 
 * &lt;a href="https://github.com/s40523147/cp2019"&gt;倉儲&lt;/a&gt;
 * &lt;a href="https://s40523147.github.io/cp2019/content/index.html"&gt;網站&lt;/a&gt;
-* &lt;a href="https://www.youtube.com/channel/UCWX1YGlqrA_kWmplsMlaPOw?view_as=subscriber"&gt;網站yt&lt;/a&gt;
+* &lt;a href="https://www.youtube.com/channel/UCWX1YGlqrA_kWmplsMlaPOw?view_as=subscriber"&gt;個人yt&lt;/a&gt;
 
 </t>
 <t tx="leo.20180902120523.11">&lt;section data-markdown&gt;
@@ -289,10 +289,10 @@ vertical: body pane on the botton</t>
 &lt;/section&gt;</t>
 <t tx="leo.20191025072736.1"># 學期末
 
-*使用SSH，用gitextension用中文註解的方式推送至倉儲
-*練習程式
-*使用程式
-*編輯自己的網站
+* 使用SSH，用gitextension用中文註解的方式推送至倉儲
+* 練習程式
+* 使用程式
+* 編輯自己的網站
 
 </t>
 <t tx="leo.20191025075437.1">&lt;section data-markdown&gt;
