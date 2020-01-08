@@ -27,8 +27,6 @@
 <v t="leo.20180902120523.13"><vh>學期回顧</vh>
 <v t="leo.20180902120523.14"><vh>W2</vh>
 <v t="leo.20180902120523.15"><vh>W2</vh></v>
-<v t="leo.20200108205002.1"><vh>W3</vh></v>
-<v t="leo.20200108205012.1"><vh>W7</vh></v>
 </v>
 <v t="leo.20180902120523.16"><vh>導入縮排程式碼</vh>
 <v t="leo.20180902120523.17"><vh>引用程式碼</vh></v>
@@ -322,9 +320,5 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
-<t tx="leo.20200108205002.1"># W3 Dartpad引入Gist中的Dart程式
-
-gist:https://dartpad.dartlang.org/?id=ae424fd04b56993f9f794ee20e7923df</t>
-<t tx="leo.20200108205012.1"></t>
 </tnodes>
 </leo_file>
