@@ -21,19 +21,21 @@
 <v t="leo.20180902120523.9"><vh>封面投影片</vh>
 <v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180902120523.11"><vh>2019 計算機程式課程願景</vh>
-<v t="leo.20180902120523.12"><vh>2019 計算機程式課程願景</vh></v>
-<v t="leo.20200108212136.1"><vh>目錄</vh>
-<v t="leo.20200108212825.1"><vh>目錄</vh></v>
-<v t="leo.20200108212136.3"><vh>學期初</vh>
-<v t="leo.20200108212136.4"><vh>學期初</vh></v>
+<v t="leo.20180902120523.11"><vh>目錄</vh>
+<v t="leo.20180902120523.12"><vh>目錄</vh></v>
 </v>
-<v t="leo.20200108212136.5"><vh>導入影片</vh>
-<v t="leo.20200108212136.6"><vh>iframe 導入影片</vh></v>
+<v t="leo.20190903120120.1"><vh>學期初</vh>
+<v t="leo.20190903120120.2"><vh>學期初</vh></v>
 </v>
+<v t="leo.20190903120516.1"><vh>學期中</vh>
+<v t="leo.20190903120516.2"><vh>學期中</vh></v>
 </v>
+<v t="leo.20191025072717.1"><vh>學期末</vh>
+<v t="leo.20191025072736.1"><vh>學期末</vh></v>
 </v>
-<v t="leo.20180902120523.13"><vh>目錄</vh></v>
+<v t="leo.20191025075437.1"><vh>學期末心得</vh>
+<v t="leo.20191025075437.2"><vh>學期末心得</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -44,16 +46,17 @@
 </vnodes>
 <tnodes>
 <t tx="leo.20180902120523.1"></t>
-<t tx="leo.20180902120523.10">## 40523147-cp2019
+<t tx="leo.20180902120523.10">## 計算機程式期末簡報CP2019
 
-### KMOLab
+
 
 &lt;small&gt;
 Created by 40523147
 &lt;/small&gt;
 
-[40523147-blog](./../blog/index.html)
-
+* &lt;a href="https://github.com/s40523147/cp2019"&gt;倉儲&lt;/a&gt;
+* &lt;a href="https://s40523147.github.io/cp2019/content/index.html"&gt;網站&lt;/a&gt;
+* &lt;a href="https://www.youtube.com/channel/UCWX1YGlqrA_kWmplsMlaPOw?view_as=subscriber"&gt;網站yt&lt;/a&gt;
 
 </t>
 <t tx="leo.20180902120523.11">&lt;section data-markdown&gt;
@@ -65,18 +68,13 @@ Created by 40523147
 
 						
 </t>
-<t tx="leo.20180902120523.12">## 2019 計算機程式課程願景
+<t tx="leo.20180902120523.12"># 目錄
 
-* Dart 與 Flutter 時代來臨
-* 可攜式裝置是一個優勢，即插即用，缺點是不一定每台電腦皆是我們所熟識的
-* 程式是一個跟電腦溝通的語言
-* 電腦與網路應該是助手而非負擔
+* 學期初
+* 學期中
+* 學期末
+* 學期心得
 
-
-</t>
-<t tx="leo.20180902120523.13">&lt;section&gt;
-@others
-&lt;/section&gt;
 
 </t>
 <t tx="leo.20180902120523.2"></t>
@@ -93,7 +91,7 @@ Created by 40523147
 <t tx="leo.20180902120523.5">&lt;head&gt;
     &lt;meta charset="utf-8"&gt;
 &lt;title&gt;
-CMSimfly 網際內容管理
+2019 Fall CAD
 &lt;/title&gt;
     &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
     &lt;meta name="author" content="Hakim El Hattab"&gt;
@@ -249,50 +247,64 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
-<t tx="leo.20200108212136.1">&lt;section data-markdown&gt;
+<t tx="leo.20190903120120.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190903120120.2"># 學期初
+
+* 建立自己的倉儲與proxy網路的環境
+* 認識github
+* 學習基本的 Python 指令
+* 使用cmsimde網站編輯符合自己風格的網站
+* 透過字幕影片錄製, 學習口語文字表達
+
+</t>
+<t tx="leo.20190903120516.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190903120516.2"># 學期中
+
+* 學習簡單的程式碼
+* 使用LEO編輯blog
+* 拍攝影片上字幕
+* 設定SSH keys，學習如何用gitextension及putty
+
+</t>
+<t tx="leo.20191025072717.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;</t>
-<t tx="leo.20200108212136.3">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
+<t tx="leo.20191025072736.1"># 學期末
 
+*使用SSH，用gitextension用中文註解的方式推送至倉儲
+*練習程式
+*使用程式
+*編輯自己的網站
 
-
-						
 </t>
-<t tx="leo.20200108212136.4">## 學期初
-
-
-* 建立好自己的倉儲及環境
-* 認識github
-* 學習基本的 Python 指令
-* 使用cmsimde網站，編輯網站</t>
-<t tx="leo.20200108212136.5">&lt;section data-markdown&gt;
+<t tx="leo.20191025075437.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
-&lt;/section&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20191025075437.2"># 學期末心得
+
+這門課我大一上的時候雖然就上過了。但我發現老師現在教的跟我大一學的東西根本不同，除了github一直有用到以外。其他的東西像dartpad javascript html程式都是我頭一次碰到。這學期也學到了原來可以用中文註解的方式推送至倉儲，以前都傻傻地打指令，這個地出現真的是救了我們大家。dartpad這個語法雖然我還沒有很熟，也從來沒有從頭打到尾。但是我會嘗試去理解每一行的意思，我相信如果上手後，它會幫你處理很多繁瑣的分類的工作，或換算單位的工作。這個也說明了現在資訊發達，無時無刻都有新的東西出來，所以我們應該放眼未來才對。
 
 
-						
 </t>
-<t tx="leo.20200108212136.6">## 使用 iframe 導入影片
-
-### 導入影片 template
-
-&lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-</t>
-<t tx="leo.20200108212825.1">## 目錄
-
-* 學期初
-* 學期中
-* 學期末
-* 學期心得</t>
 </tnodes>
 </leo_file>
