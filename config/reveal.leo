@@ -24,9 +24,9 @@
 <v t="leo.20180902120523.11"><vh>2019 計算機程式課程願景</vh>
 <v t="leo.20180902120523.12"><vh>2019 計算機程式課程願景</vh></v>
 </v>
-<v t="leo.20180902120523.13"><vh>學期回顧</vh>
-<v t="leo.20200108212136.1"><vh>W2</vh>
-<v t="leo.20200108212136.2"><vh>W2</vh></v>
+<v t="leo.20180902120523.13"><vh>目錄</vh>
+<v t="leo.20200108212136.1"><vh>目錄</vh>
+<v t="leo.20200108212825.1"><vh>目錄</vh></v>
 <v t="leo.20200108212136.3"><vh>導入縮排程式碼</vh>
 <v t="leo.20200108212136.4"><vh>引用程式碼</vh></v>
 </v>
@@ -316,15 +316,6 @@ vertical: body pane on the botton</t>
 @others
     &lt;/script&gt;
 &lt;/section&gt;</t>
-<t tx="leo.20200108212136.2"># W2-建立環境及倉儲
-
-* 隨身碟內資料 與 遠端倉儲 不一致 ， 可利用指令 git pull 合併兩者，再 add -&gt; commit -&gt; push 即可 
-* Cmsimde 資料夾內如果沒東西的話 ， 可用指令 git submodule init -&gt; git submodule update 
-* LEO文章嵌入連結 顯示的文字
-* 記得去home下面的gitconfig設定poxy的位置
-
-
-</t>
 <t tx="leo.20200108212136.3">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -379,5 +370,10 @@ make.start()
 
 &lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 </t>
+<t tx="leo.20200108212825.1"># 目錄
+
+* 學期初
+* 學期中
+* 學期末</t>
 </tnodes>
 </leo_file>
