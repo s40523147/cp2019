@@ -25,9 +25,9 @@
 <v t="leo.20180902120523.12"><vh>2019 計算機程式課程願景</vh></v>
 </v>
 <v t="leo.20180902120523.13"><vh>學期回顧</vh>
-<v t="leo.20180902120523.14"><vh>W2</vh>
-<v t="leo.20180902120523.15"><vh>W2</vh></v>
-</v>
+<v t="leo.20180902120523.14"><vh>W2</vh></v>
+<v t="leo.20200108205719.1"><vh>W3</vh></v>
+<v t="leo.20200108205733.1"><vh>newHeadline</vh></v>
 <v t="leo.20180902120523.16"><vh>導入縮排程式碼</vh>
 <v t="leo.20180902120523.17"><vh>引用程式碼</vh></v>
 </v>
@@ -87,15 +87,16 @@ Created by 40523147
     &lt;/script&gt;
 &lt;/section&gt;
 
+# W2
+
+* 隨身碟內資料 與 遠端倉儲 不一致 ， 可利用指令 git pull 合併兩者，再 add -&gt; commit -&gt; push 即可
+* Cmsimde 資料夾內如果沒東西的話 ， 可用指令 git submodule init -&gt; git submodule update
+* LEO文章嵌入連結  &lt;a href="網址"&gt;顯示的文字&lt;/a&gt;
+
 
 
 						
 </t>
-<t tx="leo.20180902120523.15"># W2
-
-* 隨身碟內資料 與 遠端倉儲 不一致 ， 可利用指令 git pull 合併兩者，再 add -&gt; commit -&gt; push 即可
-* Cmsimde 資料夾內如果沒東西的話 ， 可用指令 git submodule init -&gt; git submodule update
-* LEO文章嵌入連結  &lt;a href="網址"&gt;顯示的文字&lt;/a&gt;</t>
 <t tx="leo.20180902120523.16">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -320,5 +321,7 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
+<t tx="leo.20200108205719.1"></t>
+<t tx="leo.20200108205733.1"></t>
 </tnodes>
 </leo_file>
