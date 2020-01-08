@@ -321,7 +321,8 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
-<t tx="leo.20200108205719.1"></t>
+<t tx="leo.20200108205719.1"># W3 Dartpad引入Gist中的Dart程式
+</t>
 <t tx="leo.20200108205733.1"></t>
 </tnodes>
 </leo_file>
